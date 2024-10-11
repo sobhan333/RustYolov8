@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['person']
+
+roboflow:
+  workspace: project-q2tep
+  project: rust-5rbzw
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-q2tep/rust-5rbzw/dataset/9
